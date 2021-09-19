@@ -38,8 +38,8 @@ ChordPluck = False
 FreeRhythm = False
 UseTrueRNG = False
 ThresholdZ = 1.85
-SoloZ = 0.5#1.3
-ModAmount = 2
+SoloZ = 0.5#Threshold of Z-score in bitstream that triggers a piano solo
+ModAmount = 2#Key changes that will be triggered, in number of semitones
 
 Rmks = sys.argv[1]
 OutPath = os.getcwd()
