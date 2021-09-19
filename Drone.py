@@ -10,17 +10,17 @@ import scipy.stats
 import matplotlib.animation as animation
 
 
-UseTrueRNG = False
-ChordSound = 101
-ChordVol = 100
-PentSound = 79#104
-PentVol = 100
+UseTrueRNG = False#set to True only if you have TrueRNG hardware
+ChordSound = 101#voice of background hum
+ChordVol = 100#volume of background hum
+PentSound = 79#voice of plucking sound
+PentVol = 100#volume of plucking sound
 Key = 48#starting key, 60 = middle C
-Kmax = 70
+Kmax = 70#highest key before dropping octave
 RNG_Interval = 0.2
 RNG_BytesPerInterval = 25
-ChordThres = 25
-PentThres = 13#must be <ChordThres
+ChordThres = 25#threshold of coherence in bitstream that triggers key change
+PentThres = 13#threshold of coherence in bitstream that triggers a key pluck. Must be less than ChordThres
 
 Rmks = sys.argv[1]
 OutPath = os.getcwd()
