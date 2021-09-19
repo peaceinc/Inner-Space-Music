@@ -1,4 +1,4 @@
-# Inner-Space-Music
+# Inner Space Music
 
 This project utilizes biofrequencies and elements of consciousness present in the atmosphere to generate synthentheic music. Simply run your choice of Drone or Tropical House genre. The enviornmental data collected will be saved to a file.
 
